@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Halaman Tanpa CSS</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&amp;icon_names=menu">
+	</head>
+	<body class="bg-gray-100 font-sans">
+		
+		<!-- Navbar Start -->
+			<nav class="flex justify-between items-center p-6 bg-pink-700 text-white fixed w-full top-0 z-50">
+				<div class="text-xl font-bold">Brand Kita</div>
+				<button id="menu-btn" class="md:hidden">
+					<span class="material-symbols-outlined">
+						menu
+					</span>
+				</button>
+				
+				<!--Website Menu View-->
+				<ul class="hidden md:flex gap-6">
+					<li>
+						<a href="#" class="hover:text-pink-700">Home</a>
+					</li>
+					<li>
+						<a href="#" class="hover:text-pink-700">Tentang</a>
+					</li>
+					<li>
+						<a href="#" class="hover:text-pink-700">Kontak</a>
+					</li>
+				</ul>
+				
+				<!--Mobile View-->
+				<div id="menu" class="hidden md:hidden bg-pink-700 px-6 pb-4">
+					<ul class="flex flex-col gap-4 text-center">
+						<li>
+							<a href="#" class="hover:text-pink-400">Home</a>
+						</li>
+						<li>
+							<a href="#" class="hover:text-pink-400">Tentang</a>
+						</li>
+						<li>
+							<a href="#" class="hover:text-pink-400">Kontak</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		
+		<!-- Home Section Start -->
+		<header id="home" class="relative min-h-[80vh]  flex flex-col justify-center items-center text-center px4 bg-[url(img/com.jpg)] bg-cover bg-center">
+
+            <div class="absolute inset-0 bg-black/70"></div>
+
+            <div class="relative z-10">
+                <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white mb-4">
+                Selamat Datang Di <span class="font-bold text-pink-700">Website</span> Kami
+            </h1>
+			<p class="mx-auto text-white mb-6">
+				Halaman ini adalah halaman utama Website Perusahaan</p>
+            <button type="button" class="bg-pink-700 hover:bg-pink-800 text-white px-8 py-3 rounded-lg font-semibold transition">Lihat Portofolio</button>
+        </div>
+			
+		
+        <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-white">
+            <div>
+                <span class="font-bold text-white">50</span> Project Selesai
+            </div>
+            <div>
+                <span class="font-bold text-white">10</span> Klien
+            </div>
+            <div>
+                <span class="font-bold text-white">3</span> Tahun
+            </div>
+        </div>
+        </header>
+		<!-- Home Section End -->
+
+
+        <!-- About Us Start -->
+   <section id="about" class="px-6 py-16 bg-white">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+
+
+            <!-- KONTEN UTAMA -->
+            <div>
+                <h2 class="text-3xl font-bold mb-4 text-pink-700">About Us</h2>
+
+
+                <p class="text-gray-700 mb-4">
+                   Kami adalah platform yang berkomitmen untuk memberikan solusi digital yang informatif, mudah diakses, dan relevan dengan kebutuhan pengguna. 
+                   Website ini dibangun sebagai ruang yang menghubungkan informasi, layanan, dan pengalaman terbaik dalam satu tempat yang praktis dan terpercaya.
+                </p>
+
+
+                <p class="text-gray-700 mb-4">
+                    Dengan mengutamakan kualitas dan inovasi, kami terus mengembangkan konten serta fitur yang bermanfaat bagi pengunjung. 
+                    Setiap layanan yang kami hadirkan dirancang dengan perhatian terhadap detail, kemudahan penggunaan, dan nilai tambah yang nyata, 
+                    sehingga pengguna dapat merasakan pengalaman yang nyaman dan efisien.
+                </p>
+
+
+                <p class="text-gray-700">
+                    Kami percaya bahwa kepercayaan dan kepuasan pengguna adalah prioritas utama. Oleh karena itu, kami selalu terbuka terhadap masukan dan berkomitmen untuk terus berkembang mengikuti kebutuhan dan perkembangan zaman. 
+                    Melalui website ini, kami berharap dapat menjadi mitra yang dapat diandalkan dan memberikan dampak positif bagi setiap pengunjung.
+                </p>
+            </div>
+
+
+            <!-- KONTEN PENDUKUNG -->
+            <div class="space-y-6">
+
+
+                <!-- VISI -->
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-xl font-semibold mb-2 text-pink-700">Visi Kami</h3>
+                    <p class="text-gray-600 mb-3">
+                        Menjadi profesional yang terus berkembang, mampu beradaptasi dengan perubahan, dan memberikan dampak positif melalui keterampilan dan dedikasi.
+                    </p>
+                    <p class="text-gray-600">
+                        Menjadi pribadi yang unggul, profesional, dan berkomitmen terhadap kualitas dalam setiap peran dan tanggung jawab
+                    </p>
+                </div>
+
+
+                <!-- VALUE -->
+                <div class="bg-gray-100 p-8 rounded-xl shadow">
+                    <h3 class="text-xl font-semibold mb-4 text-pink-700">Nilai-Nilai Profesional</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>✔ Integritas</li>
+                        <li>✔ Profesionalisme</li>
+                        <li>✔ Komitmen terhadap Kualitas</li>
+                        <li>✔ Kemauan untuk Terus Belajar</li>
+                        <li>✔ Kerja Sama dan Komunikasi</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <!-- About Us End-->
+
+    <!-- Layanan Kami Start-->
+
+		 <section class="px-6 py-16 bg-gray-100">
+
+        <h2 class="text-3xl font-bold text-center mb-10 text-pink-700">Layanan Kami</h2>
+
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+            <!-- Web Development -->
+
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-blue-100 text-blue-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+
+                            d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2 text-pink-700">Web Development</h3>
+
+                <p class="text-gray-600">
+
+                    Pembuatan website cepat, aman, dan responsif sesuai kebutuhan bisnis.
+
+                </p>
+
+            </div>
+
+
+            <!-- UI UX -->
+
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-purple-100 text-purple-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+
+                            d="M9.75 17L3 21l4-7.25M14.25 17L21 21l-4-7.25M12 3v10" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2 text-pink-700">UI / UX Design</h3>
+
+                <p class="text-gray-600">
+
+                    Desain antarmuka yang nyaman digunakan dan meningkatkan konversi.
+
+                </p>
+
+            </div>
+
+
+            <!-- Maintenance Start-->
+
+            <div class="bg-white p-8 rounded-xl shadow transition hover:shadow-xl hover:-translate-y-1">
+
+                <div class="w-12 h-12 mb-4 flex items-center justify-center rounded-lg bg-green-100 text-green-600">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+
+                        stroke="currentColor">
+
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+
+                            d="M12 8v4l3 3M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+
+                    </svg>
+
+                </div>
+
+                <h3 class="text-xl font-semibold mb-2 text-pink-700">Maintenance</h3>
+
+                <p class="text-gray-600">
+
+                    Perawatan dan pengembangan berkelanjutan untuk website Anda.
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+        <!-- Maintanence End-->
+        <!-- Layanan kami End-->
+
+
+        <!-- Portofolio Start-->
+
+        <section id="portofolio" class="px-6 py-16 bg-gray-100">
+            <h2 class="text-3xl font-bold text-center mb-10 text-pink-700">Portofolio Kami</h2>
+                <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                    
+                    <!-- Card-->
+                     <div class="bg-white rounded-xl shadow overflow-hidden transition hover:shadow-xl hover:-translate-y-1">
+
+                        <img src="img/web.webp" alt="company profile website" class="w-full h-45 object-cover">
+
+                        <div class="p-6 pt-6 pb-8">
+                            <h3 class="text-4xl font-semibold mb-2">Company profile website</h3>
+                            <p>Website profile Perusahaan</p>
+                            <p>
+                                Tech :
+                                <span class="inline-flex items-center rounded-md bg-blue-400/10 px-2 py-1 text-xs font-medium text-blue-400 inset-ring inset-ring-blue-400/30">HTML</span>
+                            </p>
+                        </div>
+                     </div>
+                </div>
+        </section>
+
+        <!-- Portofolio End-->
+
+        <!-- Kontak -->
+        <section id="kontak" class="px-6 py-16 bg-white-100">
+            <h2 class="text-3xl font-bold text-center mb-10 text-pink-700">Kontak Kami</h2>
+            <form action="" class="max-w-xl mx-auto bg-gray-100 p-8 rounded-lg shadow space-y-4">
+
+                <input type="text" name="nama" id="nama" placeholder="Nama" class="w-full px-4 py-3 rounded-lg border focus:outline-none 
+                focus:border-pink-700 focus:ring-2 focus:ring-pink-700">
+
+                <input type="text" name="email" id="email" placeholder="Email" class="w-full px-4 py-3 rounded-lg border focus:outline-none 
+                focus:border-pink-700 focus:ring-2 focus:ring-pink-700">
+
+                <textarea type="text" name="pesan" id="pesan" placeholder="Pesan" rows="4" class="w-full px-4 py-3 rounded-lg border focus:outline-none 
+                focus:border-pink-700 focus:ring-2 focus:ring-pink-700"></textarea>
+
+                <button type="submit" class="w-full bg-pink-600 hover:bg-pink-700 active:bg-pink-800 text-white py-3 rounded-lg font-semibold transition">Kirim Pesan</button>
+
+            </form>
+        </section>
+
+
+        <!-- Footer Start-->
+		<footer class="bg-pink-700 text-white text-center p-6">
+			<p>© 2026 Brand Kita, semua hak dilindungi</p>
+		</footer>
+        
+        <!-- Footer End-->
+		<script>
+    		const btn = document.getElementById('menu-btn');
+    		const menu = document.getElementById('menu');
+
+    		btn.addEventListener('click', () => {
+        		menu.classList.toggle('hidden');
+    		});
+    
+		</script>
+        
+	</body>
+</html>
